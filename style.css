@@ -1,0 +1,106 @@
+body {
+    background-image: url('clinic6.jpg');
+    background-size: cover;     
+    background-position: center; 
+    background-attachment: fixed; 
+    margin: 0;                  
+    height: 100vh;
+    border-radius: 20px;
+    color: aliceblue;
+}
+header{
+    background-color: rgb(55, 73, 27);
+    color: white;
+  padding-inline-end: 40px;
+  
+
+}
+nav{
+    text-align: right;
+    color: rgb(100, 15, 72);
+   background-color: rgb(55, 73, 27); 
+
+
+
+}nav button {
+    text-decoration: none;
+    background-color: rgb(72, 199, 182); 
+    color: rgb(92, 166, 196);          
+    padding: 10px 20px;    
+    border: none;
+    border-radius: 5px;    
+    font-weight: bold;     
+    font-size: 16px;        
+    cursor: pointer;
+    margin-left: 10px;    
+    text-decoration-line: none; 
+}
+
+.div1 {
+   
+    background-image: url('clinic6.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    width: 100%;
+    
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;    
+    
+
+    padding-bottom: 50px; 
+}
+
+.div1-h1 {
+    text-align: center;
+}
+
+.div1-h1 h1 {
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    text-size-adjust: calc(90);
+}
+
+.div1-h1 pre {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+.div-button button{
+text-align: center;
+color: aqua;
+background-color: burlywood;
+}
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px; 
+    justify-content: center;
+}
+
+.btn-get-started{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #87a08f; 
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px;   
+    font-weight: bold;
+    transition: 0.3s;      
+}
+
+.btn-contact {
+    background-color: aqua;
+     color: white;
+    text-decoration: none; 
+    border-radius: 5px;   
+    font-weight: bold;
+    transition: 0.3s; 
+     display: inline-block;
+    padding: 12px 28px;
+}
